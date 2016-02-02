@@ -2,7 +2,7 @@
 // lab3.C
 // alpha coefficients
 //
-//  Created by jasmin on 3/4/15.
+// Created by jasmin on 3/4/15.
 //
 //
 

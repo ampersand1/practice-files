@@ -1,12 +1,14 @@
 
 import numpy as np
+
 # this is our function
 def func(x):
     return np.exp(2.*x)
-# this returns the relative error, where x is the new value and y # is the old value
+# this returns the relative error, where x is the new value and y is the old value
 
 def errFunc(x, y):
     return np.abs((x-y)/x)
+
 # initialize values, most of which are given in the problem
 # sumSave will be a variable used to track the last sum (for error)
 # sumErr is the ratio the value changed from last time
